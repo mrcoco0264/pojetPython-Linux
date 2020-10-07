@@ -1,5 +1,4 @@
 import random
-x = 0
 choix_aleatoireOrdi=2
 VictoireOrdi=0
 VictoireJoueur=0
@@ -72,7 +71,7 @@ for i in range(4) :
   elif nbrConsecutifOrdi==3 :
     break
 if nbrConsecutifJoueur>nbrConsecutifOrdi :
-  print('Joueur Gagne!')
+  print('Le Joueur Gagne!')
 elif nbrConsecutifJoueur<nbrConsecutifOrdi :
   print("L'ordinateur Gagne !")
 else :
